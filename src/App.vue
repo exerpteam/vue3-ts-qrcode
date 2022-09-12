@@ -2,16 +2,9 @@
 </script>
 
 <template>
-  <div class="h-full w-full bg-main-text-secondary">
+  <div>
       <QRCode />
   </div>
 </template>
 
-<style>
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-#app {
-  @apply overflow-hidden h-screen
-}
-</style>
+

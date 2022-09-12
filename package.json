@@ -15,15 +15,14 @@
     "rollup": "rollup -c"
   },
   "dependencies": {
-    "rollup-plugin-postcss": "^4.0.2",
-    "vue": "^3.2.38",
-    "vue-class-component": "^8.0.0-0",
     "qrcode-generator": "^1.4.3"
   },
   "peerDependencies": {
-    "vue": "^3.2.38"
+    "vue": "^3.2.38",
+    "vue-class-component": "^8.0.0-0"
   },
   "devDependencies": {
+    "rollup-plugin-postcss": "^4.0.2",
     "@babel/core": "^7.16.7",
     "@vitejs/plugin-vue": "^2.0.0",
     "autoprefixer": "^10.4.2",

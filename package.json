@@ -1,6 +1,6 @@
 {
-  "name": "ariane-components",
-  "version": "0.1.3",
+  "name": "vue3-ts-qrcode",
+  "version": "0.1.6",
   "main": "dist/library.js",
   "module": "dist/library.mjs",
   "files": [
@@ -11,15 +11,12 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
     "rollup": "rollup -c"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.4",
-    "@storybook/addon-docs": "^6.5.10",
     "rollup-plugin-postcss": "^4.0.2",
-    "vue": "^3.2.21"
+    "vue": "^3.2.21",
+    "vue-class-component": "^8.0.0-0"
   },
   "peerDependencies": {
     "tailwindcss": "^3.0.15",
@@ -27,10 +24,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.16.7",
-    "@storybook/addon-actions": "^6.5.10",
-    "@storybook/addon-essentials": "^6.5.10",
-    "@storybook/addon-links": "^6.5.10",
-    "@storybook/vue3": "^6.5.10",
     "@vitejs/plugin-vue": "^2.0.0",
     "autoprefixer": "^10.4.2",
     "babel-loader": "^8.2.3",

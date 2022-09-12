@@ -4,6 +4,7 @@
     "useDefineForClassFields": true,
     "module": "esnext",
     "moduleResolution": "node",
+    "experimentalDecorators": true,
     "strict": true,
     "jsx": "preserve",
     "types": [
@@ -12,8 +13,19 @@
     "sourceMap": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "lib": ["esnext", "dom"]
+    "lib": [
+      "esnext",
+      "dom"
+    ]
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "stories/**/*.vue"],
-  "exclude": ["**/*.stories.ts"]
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "stories/**/*.vue"
+  ],
+  "exclude": [
+    "**/*.stories.ts"
+  ]
 }

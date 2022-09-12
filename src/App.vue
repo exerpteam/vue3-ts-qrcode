@@ -3,7 +3,7 @@
 
 <template>
   <div class="h-full w-full bg-main-text-secondary">
-      <AriButton v-ripple outlined label="Button"/>
+      <QRCode />
   </div>
 </template>
 
